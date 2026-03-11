@@ -3,55 +3,81 @@ import { SiMongodb, SiSpringboot } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className="skills">
+    <section className="skills-section">
 
-      <h2>Skills</h2>
+      <h2 className="section-title">Skills</h2>
 
-      <div className="skills-grid">
+      <div className="skills-slider">
 
-        <div className="skill-card">
-          <FaHtml5 size={40}/>
-          <p>HTML</p>
-        </div>
+        <div className="skills-track">
 
-        <div className="skill-card">
-          <FaCss3Alt size={40}/>
-          <p>CSS</p>
-        </div>
+          <div className="skill-card">
+            <FaHtml5 />
+            <p>HTML</p>
+          </div>
 
-        <div className="skill-card">
-          <FaJs size={40}/>
-          <p>JavaScript</p>
-        </div>
+          <div className="skill-card">
+            <FaCss3Alt />
+            <p>CSS</p>
+          </div>
 
-        <div className="skill-card">
-          <FaReact size={40}/>
-          <p>React</p>
-        </div>
+          <div className="skill-card">
+            <FaJs />
+            <p>JavaScript</p>
+          </div>
 
-        <div className="skill-card">
-          <FaNodeJs size={40}/>
-          <p>Node.js</p>
-        </div>
+          <div className="skill-card">
+            <FaReact />
+            <p>React</p>
+          </div>
 
-        <div className="skill-card">
-          <SiMongodb size={40}/>
-          <p>MongoDB</p>
-        </div>
+          <div className="skill-card">
+            <FaNodeJs />
+            <p>Node.js</p>
+          </div>
 
-        <div className="skill-card">
-          <FaJava size={40}/>
-          <p>Java</p>
-        </div>
+          <div className="skill-card">
+            <SiMongodb />
+            <p>MongoDB</p>
+          </div>
 
-        <div className="skill-card">
-          <SiSpringboot size={40}/>
-          <p>Spring Boot</p>
+          <div className="skill-card">
+            <FaJava />
+            <p>Java</p>
+          </div>
+
+          <div className="skill-card">
+            <SiSpringboot />
+            <p>Spring Boot</p>
+          </div>
+
+          {/* Duplicate for infinite scroll */}
+
+          <div className="skill-card">
+            <FaHtml5 />
+            <p>HTML</p>
+          </div>
+
+          <div className="skill-card">
+            <FaCss3Alt />
+            <p>CSS</p>
+          </div>
+
+          <div className="skill-card">
+            <FaJs />
+            <p>JavaScript</p>
+          </div>
+
+          <div className="skill-card">
+            <FaReact />
+            <p>React</p>
+          </div>
+
         </div>
 
       </div>
 
-    </div>
+    </section>
   );
 }
 

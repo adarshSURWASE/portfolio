@@ -40,8 +40,11 @@ function Home() {
           </a>
 
           <a href="/resume.pdf" download className="btn">
+            
             Download Resume
           </a>
+
+         
         </div>
 
         <p className="status">🚀 Open to Internship Opportunities</p>

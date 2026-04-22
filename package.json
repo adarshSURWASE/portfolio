@@ -25,5 +25,18 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.3.1"
-  }
+  },
+  "description": "Live Website:\r https://portfolio-omega-nine-hs0tj0og9j.vercel.app",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshSURWASE/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshSURWASE/portfolio/issues"
+  },
+  "homepage": "https://github.com/adarshSURWASE/portfolio#readme"
 }

@@ -39,7 +39,7 @@ function Home() {
             GitHub
           </a>
 
-          <a href="/Resume.pdf" download className="btn">
+          <a href="/resume.pdf" download className="btn">
             
             Download Resume
           </a>
